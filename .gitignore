@@ -1,0 +1,62 @@
+# Checkpoints
+checkpoints/
+*.pt
+*.pth
+*.bin
+
+# Results & evaluation outputs
+results/
+*.json
+*.csv
+*.log
+
+# Testing artifacts
+test_*.py
+*_test.py
+
+# Tokenizer
+tokenizer/
+*.json
+
+# Data
+data/
+*.bin
+*.npy
+*.npz
+meta.json
+
+# Logs
+logs/
+*.log
+wandb/
+tensorboard/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+.venv-linux/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archive / old code
+archive/
